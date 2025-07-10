@@ -1,0 +1,9 @@
+ .WeatherApp {
+     text-align: center;
+     background-color: rgb(249, 250, 250);
+     padding: 50px 25px 50px 25px;
+     border: 2px solid black;
+     border-radius: 2%;
+     margin-left: 50px;
+     margin-right: 50px;
+ }
