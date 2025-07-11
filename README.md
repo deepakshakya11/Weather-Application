@@ -23,6 +23,19 @@ https://weather-application-drab-beta.vercel.app/
   - **`api/OpenWeatherService.js`**: It contains the code related to the back-end of the application.
 
 <br/>
+
+## ⚡ Install
+
+- Clone the repository:
+
+```bash
+git clone https://github.com/deepakshakya11/Weather-Application.git
+
+```
+
+- Install the packages using the command `npm install`
+
+
 <br/>
 
 ## 📙 Used libraries
