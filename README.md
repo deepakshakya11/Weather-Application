@@ -1,4 +1,4 @@
-![Application screenshot]("C:\Users\DEEPAK SHAKYA\Pictures\Screenshots\weather-App.png")
+<img width="893" height="843" alt="Image" src="https://github.com/user-attachments/assets/d39e3a89-2c5a-4915-84b5-25ca9c34cff5" />
 
 <br/>
 <br/>
