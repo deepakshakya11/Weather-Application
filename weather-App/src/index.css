@@ -27,8 +27,8 @@ body {
     place-items: center;
     min-width: 320px;
     min-height: 100vh;
-    /* background: linear-gradient(135deg, #4f8ef7 0%, #1e3c72 100%); */
-    background: url('https://sb.ecobnb.net/app/uploads/sites/3/2020/01/nature.jpg') no-repeat center center fixed;
+    background: linear-gradient(to right, #0b66b6, #07ccd7a0);
+    /* background: url('https://sb.ecobnb.net/app/uploads/sites/3/2020/01/nature.jpg') no-repeat center center fixed; */
     background-size: cover;
 }
 
