@@ -1,9 +1,53 @@
  .WeatherApp {
-     text-align: center;
-     background-color: rgb(249, 250, 250);
-     padding: 50px 25px 50px 25px;
-     border: 2px solid black;
+     min-height: 100vh;
+     width: 100%;
+     padding: 10px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     box-sizing: border-box;
      border-radius: 2%;
-     margin-left: 50px;
-     margin-right: 50px;
+     background: linear-gradient(to right, #4facfe, #00f2fe);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: flex-start;
+     gap: 15px;
+ }
+ 
+ .WeatherApp h2 {
+     color: #ffffff;
+     font-size: 2.5rem;
+     margin-bottom: 10px;
+     text-align: center;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+     font-weight: bold;
+ }
+ 
+ .WeatherApp p {
+     color: #ffffff;
+     font-size: 1.2rem;
+     text-align: center;
+     max-width: 600px;
+     margin: 5px auto;
+ }
+ 
+ .WeatherApp input {
+     margin-top: 5px;
+     padding: 10px;
+     font-size: 1rem;
+     border: 2px solid none;
+     border-radius: 5px;
+     width: 200px;
+     max-width: 100%;
+     transition: border-color 0.3s ease;
+ }
+ 
+ @media screen and (max-width: 600px) {
+     .WeatherApp {
+         padding: 10px;
+         gap: 20px;
+     }
+     .WeatherApp h2 {
+         font-size: 2rem;
+     }
  }
