@@ -27,9 +27,24 @@ body {
     place-items: center;
     min-width: 320px;
     min-height: 100vh;
-    background: linear-gradient(to right, #0b66b6, #07ccd7a0);
-    /* background: url('https://sb.ecobnb.net/app/uploads/sites/3/2020/01/nature.jpg') no-repeat center center fixed; */
-    background-size: cover;
+    background: linear-gradient(-45deg, #0b66b6, #07ccd7a0, #4facfe, #00f2fe);
+    background-size: 400% 400%;
+    animation: flowingWater 5s ease infinite;
+}
+
+
+/* Animate background gradient movement */
+
+@keyframes flowingWater {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 h1 {
