@@ -29,11 +29,8 @@ body {
     min-height: 100vh;
     background: linear-gradient(-45deg, #0b66b6, #07ccd7a0, #4facfe, #00f2fe);
     background-size: 400% 400%;
-    animation: flowingWater 5s ease infinite;
+    animation: flowingWater 10s ease infinite;
 }
-
-
-/* Animate background gradient movement */
 
 @keyframes flowingWater {
     0% {
